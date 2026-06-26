@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# Generated demo/training artifacts
+artifacts/*.pt
+artifacts/*.pth
+artifacts/*.onnx
+artifacts/*.png
+artifacts/*.csv
+artifacts/*.json
+
+# Third-party datasets must be downloaded separately.
+data/can-v1.5/
+data/road/
+data/mirgu/
+data/**/*.log
+data/**/*.csv
+data/**/*.zip
+data/**/*.npz
+data/**/*.npy
+

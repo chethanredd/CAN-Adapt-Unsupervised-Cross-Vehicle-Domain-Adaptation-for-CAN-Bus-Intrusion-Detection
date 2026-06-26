@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "can-mmd-ids"
+version = "0.1.0"
+description = "TCN autoencoder and MMD domain adaptation for CAN bus anomaly detection"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Project Maintainers" }]
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.8",
+  "torch>=2.1"
+]
+
+[project.scripts]
+can-mmd-ids = "can_mmd_ids.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
