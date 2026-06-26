@@ -1,4 +1,4 @@
-# MMD-CAN-IDS
+# CAN-Adapt-Unsupervised-Cross-Vehicle-Domain-Adaptation-for-CAN-Bus-IDS
 
 Lightweight cross-vehicle intrusion detection for automotive CAN traffic.
 
